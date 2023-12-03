@@ -3,8 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="test.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -13,11 +11,11 @@
         <table>
             <tr>
                  <td><label>ชื่อ</label></td>
-                 <td><input type="text" id="fname" name="fname" placeholder="input your name"></td>
+                 <td><input type="text" id="fname" name="fname" placeholder="input your first name"></td>
             </tr>
             <tr>
                 <td><label>สกุล</label></td>
-                <td><input type="text" id="lname" name="lname"></td>
+                <td><input type="text" id="lname" name="lname" placeholder="input your last name"></td>
            </tr>
            <tr>
                 <td><label>วัน/เดือน/ปีเกิด</label></td>
@@ -25,16 +23,14 @@
             </tr>
             <tr>
                 <td><label>อายุ</label></td>
-                <td><input type="text" id="age" name="age"></td>
+                <td><input type="text" id="age" name="age" placeholder="input your age"></td>
            </tr>
            <tr>
+                <td><label>เพศ</label></td>
                 <td>
-                    <label>เพศ</label>
-                </td>
-                <td>
-                    <input type="radio" id="gender_m" name="gender" value="male">
+                    <input type="radio" id="gender_m" name="gender">
                     <label for="gender_m">ชาย</label>
-                    <input type="radio" id="gender_f" name="gender" value="female">
+                    <input type="radio" id="gender_f" name="gender">
                     <label for="gender_f">หญิง</label>
                 </td>
             </tr>
@@ -42,7 +38,40 @@
                 <td><input type="file"></td>
             <tr>
                 <td><label>ที่อยู่</label></td>
-                <td><textarea rows="4" cols="40"></textarea></td>
+                <td><textarea rows="4" cols="40" placeholder="input your address"></textarea></td>
+            </tr>
+            <tr>
+                <td><label>สีที่ชอบ</label></td>
+                <td><select id="colours" name="colours">
+                    <option value="red">สีแดง</option>
+                    <option value="yellow">สีเหลือง</option>
+                    <option value="blue">สีน้ำเงิน</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label>แนวเพลงที่ชอบ</label></td>
+                <td>
+                    <input type="radio" id="genre_b" name="genre">
+                    <label for="genre_b">เพื่อชีวิต</label>
+                    <input type="radio" id="genre_f" name="genre">
+                    <label for="genre_f">ลูกทุ่ง</label>
+                    <input type="radio" id="genre_o" name="genre">
+                    <label for="genre_o">อื่นๆ</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" id="accept" name="accept">
+                    <label for="accept">ยินยอมให้เก็บข้อมูล</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="reset">Reset</button>
+                </td>
+                <td>
+                    <button type="submit">Submit</button>
+                </td>
             </tr>
        </table>
     </form>

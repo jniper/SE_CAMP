@@ -3,27 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Thidarat | Workshop #HTML - FORM</title>
 </head>
 <body>
-    <h1>Workshop #HTML - FORM</h1>
+    <h1>Workshop #HTML - FORM</h1><br><br>
     <form>
         <table>
             <tr>
                  <td><label>ชื่อ</label></td>
-                 <td><input type="text" id="fname" name="fname" placeholder="input your first name"></td>
+                 <td><input type="text" id="firstname" name="firstname" placeholder="First Name."></td>
             </tr>
             <tr>
                 <td><label>สกุล</label></td>
-                <td><input type="text" id="lname" name="lname" placeholder="input your last name"></td>
+                <td><input type="text" id="surname" name="surname" placeholder="Surname."></td>
            </tr>
            <tr>
                 <td><label>วัน/เดือน/ปีเกิด</label></td>
-                <td><input type="date"</td>
+                <td><input type="date" id="date" name="date"></td>
             </tr>
             <tr>
                 <td><label>อายุ</label></td>
-                <td><input type="text" id="age" name="age" placeholder="input your age"></td>
+                <td><input type="text" id="age" name="age" placeholder="Please enter your age."></td>
            </tr>
            <tr>
                 <td><label>เพศ</label></td>
@@ -35,17 +36,25 @@
                 </td>
             </tr>
                 <td><label>รูป</label></td>
-                <td><input type="file"></td>
+                <td><input type="file" id="picture" name="picture"></td>
             <tr>
                 <td><label>ที่อยู่</label></td>
-                <td><textarea rows="4" cols="40" placeholder="input your address"></textarea></td>
+                <td><textarea rows="4" cols="40" id="address" name="address" placeholder="Please enter your address."></textarea></td>
             </tr>
             <tr>
                 <td><label>สีที่ชอบ</label></td>
-                <td><select id="colours" name="colours">
+                <td><select id="colours"name="colours">
+                    <option selected="true"disabled="disabled">---Select---</option>
                     <option value="red">สีแดง</option>
+                    <option value="pink">สีชมพู</option>
+                    <option value="orange">สีส้ม</option>
                     <option value="yellow">สีเหลือง</option>
+                    <option value="green">สีเขียว</option>
+                    <option value="skyblue">สีฟ้า</option>
                     <option value="blue">สีน้ำเงิน</option>
+                    <option value="purple">สีม่วง</option>
+                    <option value="brown">สีน้ำตาล</option>
+                    <option value="black">สีดำ</option>
                 </select></td>
             </tr>
             <tr>
@@ -59,21 +68,22 @@
                     <label for="genre_o">อื่นๆ</label>
                 </td>
             </tr>
-            <tr>
-                <td>
-                    <input type="checkbox" id="accept" name="accept">
-                    <label for="accept">ยินยอมให้เก็บข้อมูล</label>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <button type="reset">Reset</button>
-                </td>
-                <td>
-                    <button type="submit">Submit</button>
-                </td>
-            </tr>
+            <div class="form-footer">
+                <tr>
+                    <td colspan="2" style="text-align: center;"><br>
+                        <input type="checkbox" id="accept" name="accept">
+                        <label for="accept">ยินยอมให้เก็บข้อมูล</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;"><br>
+                        <button type="reset" id="reset" name="reset" style="margin-right: 15%;" >Reset</button>
+                        <button type="submit" id="submit" name="submit" style="background-color: forestgreen; border-color: green;">Submit</button>
+                    </td>
+                </tr>
+            </div>
        </table>
     </form>
+    <!-- <img class="footer" src="./elmoandfriends.png" alt="elmo"> -->
 </body>
 </html>

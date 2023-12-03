@@ -1,43 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <h1>Workshop #HTML - FORM</h1>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="test.js"></script>
     <title>Document</title>
 </head>
 <body>
+    <h1>Workshop #HTML - FORM</h1>
     <form>
         <table>
             <tr>
-                 <td><label for="fname">ชื่อ</label></td>
-                 <td><input type="text" id="fname" name="fname"</td>
+                 <td><label>ชื่อ</label></td>
+                 <td><input type="text" id="fname" name="fname" placeholder="input your name"></td>
             </tr>
             <tr>
-                <td><label for="lname">สกุล</label></td>
-                <td><input type="text" id="lname" name="lname"</td>
+                <td><label>สกุล</label></td>
+                <td><input type="text" id="lname" name="lname"></td>
            </tr>
            <tr>
-                <td><label for="birthday">วัน/เดือน/ปีเกิด</label></td>
+                <td><label>วัน/เดือน/ปีเกิด</label></td>
                 <td><input type="date"</td>
             </tr>
             <tr>
-                <td><label for="age">อายุ</label></td>
-                <td><input type="text" id="age" name="age"</td>
+                <td><label>อายุ</label></td>
+                <td><input type="text" id="age" name="age"></td>
            </tr>
            <tr>
                 <td>
-                    <label for="gender">เพศ</label>
+                    <label>เพศ</label>
                 </td>
                 <td>
-                    <input type="radio" id="gender" name="gender" value="ชาย"
+                    <input type="radio" id="gender_m" name="gender" value="male">
                     <label for="gender_m">ชาย</label>
-                    <input type="radio" id="gender" name="gender" value="หญิง"
+                    <input type="radio" id="gender_f" name="gender" value="female">
                     <label for="gender_f">หญิง</label>
                 </td>
             </tr>
-                <td><label for="picture">รูป</label></td>
+                <td><label>รูป</label></td>
                 <td><input type="file"></td>
+            <tr>
+                <td><label>ที่อยู่</label></td>
+                <td><textarea rows="4" cols="40"></textarea></td>
+            </tr>
        </table>
     </form>
 </body>

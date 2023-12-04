@@ -1,0 +1,55 @@
+/*
+Comment
+*/
+
+h1{
+    font-family: 'TH SarabunPSK', Arial, sans-serif;
+    font-size: 36pt;
+    color: blue;
+}
+
+.myfont{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.coRed{
+    color: #ff2fff;
+    color: rgb(0, 255, 0);
+    color: hsl(9,50%,50%);
+}
+
+.h1{
+    font-size: 16pt;
+}
+
+#myP{
+    font-size: 48pt;
+}
+
+hr{
+    color:red ;
+    border: 2px solid;
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(88, 90, 88);
+    text-align: center;
+    border: 5px dashed rgb(0, 255, 0);
+    padding-top: 10%;
+    margin-top: 50px 25 px;
+}
+
+.box:hover{
+    background-color: rgb(118, 11, 82);
+}
+
+a{
+    color: #010101;
+}
+
+a:link{
+    color: #FF0000;
+}

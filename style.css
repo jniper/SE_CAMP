@@ -1,7 +1,7 @@
-/*
+/* 
 Comment
 */
-@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
 
 :root{
@@ -48,9 +48,7 @@ button {
     line-height: 500px;
     vertical-align: middle;
     color: #ffffff;
-    /* background-color: rgb(255, 255, 255); */
     text-align: center;
-    /* border: 5px dashed #E86565; */
     background-image: url('./giftbox/1.png');
     background-size: cover;
     margin-top: 50px;
@@ -58,7 +56,6 @@ button {
 }
 
 .box:hover{
-    /* background-color: rgb(255, 255, 255); */
     background-image: url('./giftbox/2.png');
     background-size: cover;
     box-shadow: 0 0 50px#936447 ;
@@ -79,4 +76,30 @@ a:visited{
 
 a:hover{
     color: #315468;
+}
+
+p.normal{
+    font-style: normal;
+    font-weight: bold;
+}
+
+p.italic{
+    font-style: italic;
+    font-weight: bold;
+}
+
+div > div > p{
+    font-size: larger;
+    font-style: bold;
+}
+
+div > p{
+    font-size: smaller;
+    font-style: bold;
+}
+
+.box2{
+    /* position: relative; */
+    left: 30px;
+    border: 3px solid #73AD21;
 }

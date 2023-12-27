@@ -18,8 +18,8 @@
      ?>
      </h1>
     <form action="<?=$_SERVER['PHP_SELF'];?>" method="POST">
-        <input type="number" name="number">
-        <input type="submit" value="แสดงแม่สูตรคูณ">
+        <input type="number" style="width:150px; height:25px; margin-right: 1.5%;" name="number" placeholder="enter the number"> 
+        <button type="submit" style="width:125px; height:25px;">แสดงแม่สูตรคูณ</button>
     </form>
     <div class="table">
         <div class="multable">
@@ -43,8 +43,11 @@
     }
     h1 {
         font-family: 'Mali';
+        font-style: bold;
         color: #5D8D73;
         text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
     .table{
         text-align: center;
@@ -55,6 +58,8 @@
         display: flex;
         justify-content: center;
         margin: auto;
+        margin-top: 50px;
+        border-radius: 0.5rem;
     }
     .multable {
         font-family: 'Mali';
@@ -62,8 +67,16 @@
         width: 200px;
         height: 300px;
         overflow: auto;
-        background-color: #FEC4A2; 
+        background-color: #FEC4A2;
+        border-radius: 0.5rem;
     }  
+    button{
+        border-radius: 0.25rem;
+        border-style: solid;
+        border-color: #5D8D73;
+        background-color:#A1D0BE;
+        color:black;
+    }
 </style>
 
 </html>

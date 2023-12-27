@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-    
+    <title>Thidarat | Workshop #PHP&CSS - MULTIPLICATION TABLE</title>
 </head>
 
 <body>
@@ -61,7 +61,7 @@
         text-align: center;
         width: 200px;
         height: 300px;
-        overflow: scroll;
+        overflow: auto;
         background-color: #FEC4A2; 
     }
     

@@ -1,6 +1,7 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <title>Thidarat | Workshop #PHP - FORM_101</title>
 </head>
 <body>
     <?php

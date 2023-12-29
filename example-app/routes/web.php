@@ -1,8 +1,8 @@
 <?php
-
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http;
 use Illuminate\Http\Request;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,28 +15,30 @@ use Illuminate\Http\Request;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return 'hi';
+});
+Route::get('/test', function () {
+    return view("myroutes");
 });
 
 // Route::get('/my-routes', function () {
-//     echo "<h1> My Route Page</h1>";
+//     $data = ['val_a' => 'Hello World'];
+//     $data['val_b'] = "Laravel";
+//     return view('myfolder.mypage',$data);
 // });
 
-Route::get('/my-routes', function () {
+// Route::post('/my-routes', function (Request $req) {
+//     $data['myinput'] = $req -> input ('myinput');
+//     return view('myroutes', $data);
+// });
+
+Route::get('/my-multable', function () {
     return view('myfolder.mypage');
 });
 
-// Route::get('/my-routes', function () {
-//     return view('myroutes');
-// });
-
-Route::get('/my-routes', function () {
-    $data = ['val_a' => 'Hello World'];
-    $data['val_b'] = "Laravel";
-    return view('myfolder.mypage',$data);
+Route::post('/my-multable', function (Request $req) {
+    $data['number'] = $req -> input ('multiply');
+    return view('myfolder.mymultable', $data);
 });
 
-Route::post('/my-routes', function (Request $req) {
-    $data['myinput'] = $req -> input ('myinput');
-    return  view('myroutes', $data);
-});
+?>

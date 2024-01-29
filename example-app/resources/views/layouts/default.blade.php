@@ -71,7 +71,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
               <img src="https://i.pinimg.com/564x/8f/aa/dd/8faaddfede3b9efe1eb58d14c3809ba6.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
-                  ไอ้ปื้ด
+                  ไอ้ปื๊ด
                   <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
                 </h3>
                 <p class="text-sm">โฮ่ง! หิวแล้ววว</p>

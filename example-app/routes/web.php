@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\C_titles;
 use App\Http\Controllers\MyController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http;
@@ -57,6 +58,7 @@ Route::post('/my-multable', function (Request $req) {
 
 Route::get('/homepage', function() {
     return view('layouts.home');
-})
+});
 
-?>
+Route::resource('/titles', C_titles::class);
+

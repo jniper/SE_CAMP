@@ -93,6 +93,9 @@
                                         <td>
                                             <a href="{{ url('/titles/' . $title->tit_id) }}"
                                                 class="btn btn-warning">แก้ไข</a>
+
+                                            <a href="{{ url('/titles/' . $title->tit_id) }}"
+                                                class="btn btn-danger">ลบ</a>
                                         </td>
                                     </tr>
                                     <?php } ?>

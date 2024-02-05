@@ -159,9 +159,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <div class="info">
           <a href="#" class="d-block">Thidarat Onsanit</a>
         </div>
-        <a href="logout" class="btn btn-sm">
-            <i class="fas fa-sign-out-alt"></i>
-        </a>
       </div>
 
       <!-- SidebarSearch Form -->
@@ -210,6 +207,14 @@ scratch. This page gets rid of all links and provides the needed markup only.
               <p>
                 Simple Link
                 <span class="right badge badge-danger">New</span>
+              </p>
+            </a>
+          </li>
+          <li class="nav-item fixed-bottom">
+            <a href="/logout" class="nav-link btn-danger btn-sm">
+              <i class="nav-icon fas fa-sign-out-alt"></i>
+              <p>
+                Logout
               </p>
             </a>
           </li>

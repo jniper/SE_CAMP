@@ -145,7 +145,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="" class="brand-link">
-      <img src="https://scontent.fbkk30-1.fna.fbcdn.net/v/t39.30808-1/307327169_455356293294173_6838050948162903708_n.jpg?stp=dst-jpg_p480x480&_nc_cat=104&ccb=1-7&_nc_sid=596444&_nc_ohc=mWenACIpn0oAX_IyjiB&_nc_ht=scontent.fbkk30-1.fna&oh=00_AfBmVJytGm4e0LtLz0zkW0_7loaItWGg-IMAD-g87X2Mng&oe=65A93D7C" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+      <img src="https://scontent-bkk1-1.xx.fbcdn.net/v/t39.30808-6/307327169_455356293294173_6838050948162903708_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=j67N-Wq9xEUAX8mIRtm&_nc_ht=scontent-bkk1-1.xx&oh=00_AfCuUraZlbut4C2FzDf28sfa2Uas2u80OYa1q_4RIGjukQ&oe=65C5F8FE" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
       <span class="brand-text font-weight-light">SE CAMP #12</span>
     </a>
 
@@ -159,6 +159,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <div class="info">
           <a href="#" class="d-block">Thidarat Onsanit</a>
         </div>
+        <a href="logout" class="btn btn-sm">
+            <i class="fas fa-sign-out-alt"></i>
+        </a>
       </div>
 
       <!-- SidebarSearch Form -->
@@ -210,9 +213,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
               </p>
             </a>
           </li>
-        </ul>
-      </nav>
-      <!-- /.sidebar-menu -->
+        </nav>
+        <!-- /.sidebar-menu -->
     </div>
     <!-- /.sidebar -->
   </aside>

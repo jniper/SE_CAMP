@@ -211,10 +211,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </a>
           </li>
           <li class="nav-item fixed-bottom">
-            <a href="/logout" class="nav-link btn-danger btn-sm">
+            <a href="/logout" class="btn-danger btn-sm nav-link">
               <i class="nav-icon fas fa-sign-out-alt"></i>
               <p>
-                Logout
+                Log out
               </p>
             </a>
           </li>

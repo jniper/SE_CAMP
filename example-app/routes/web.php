@@ -42,8 +42,9 @@ Route::resource('my-controller4', MyController::class);
 
 
 Route::get('/', function () {
-    return 'hi';
+    return view('welcome');
 });
+
 Route::get('/test', function () {
     return view("myroutes");
 });

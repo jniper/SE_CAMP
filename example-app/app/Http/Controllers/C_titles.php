@@ -33,7 +33,7 @@ class C_titles extends Controller
         //
         $tit_name = $request->input('tit_name');
         $tit_is_active = $request->input('tit_is_active');
-        if($tit_is_active = "on"){
+        if($tit_is_active == "on"){
             $tit_is_active = 1;
         }else{
             $tit_is_active = 0;
@@ -73,7 +73,7 @@ class C_titles extends Controller
         //
         $tit_name = $request->input('tit_name');
         $tit_is_active = $request->input('tit_is_active');
-        if($tit_is_active = "on"){
+        if($tit_is_active == "on"){
             $tit_is_active = 1;
         }else{
             $tit_is_active = 0;

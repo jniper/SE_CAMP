@@ -90,7 +90,7 @@
                                         <td>
                                             {{ $title->tit_is_active }}
                                         </td>
-                                        <td>
+                                        <td style="display: flex; justify-content:space-around">
                                             <a href="{{ url('/titles/' . $title->tit_id) }}"
                                                 class="btn btn-warning">แก้ไข
                                             </a>

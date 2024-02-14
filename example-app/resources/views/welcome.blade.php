@@ -32,7 +32,7 @@
             console.log("Hello World - document.ready")
             console.log($('#myh1').text())
             console.log($('#my_number').val())
-            $('#my1').text("Javascript 101")
+            $('#myh1').text("Javascript 101")
             $('#my_number').val(100)
         });
         function myFunction2(){

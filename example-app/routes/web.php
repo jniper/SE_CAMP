@@ -69,9 +69,11 @@ Route::post('/my-multable', function (Request $req) {
     return view('myfolder.mymultable', $data);
 });
 
+Route::get('/multable',function(){
+    return view('myfolder.multable');
+});
+
 Route::get('/homepage', function() {
     return view('layouts.home');
 });
-
-
 
